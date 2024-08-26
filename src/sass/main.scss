@@ -1,0 +1,30 @@
+/* SASS EXAMPLE*/
+
+$primary-color: #3498db;
+$text-color: #333;
+
+body {
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $primary-color;
+  text-align: center;
+}
+
+button {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darken($primary-color, 10%);
+}

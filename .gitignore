@@ -1,0 +1,78 @@
+# Code
+**/vendor/
+**/node_modules/
+*.class
+*.py[cod]
+*.log
+*.jar
+target/
+.idea/
+TEST*.xml
+.DS_Store
+.project
+.settings
+
+Thumbs.db
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Public_HTML Directories
+public_html/wp-admin/
+public_html/wp-includes/
+public_html/scripts
+
+# Directories wp-content
+public_html/wp-content/*
+!public_html/wp-content/themes
+public_html/wp-content/themes/*
+!public_html/wp-content/themes/base-theme/
+
+# Root Directories
+scripts/
+document_errors/
+private/
+stats/
+logs/
+downloads/
+cgi-bin/
+
+#Files
+public_html/wp-activate.php
+public_html/wp-blog-header.php
+public_html/wp-comments-post.php
+public_html/wp-config-sample.php
+public_html/wp-config.php
+public_html/wp-cron.php
+public_html/wp-links-opmi.php
+public_html/wp-load.php
+public_html/wp-login.php
+public_html/wp-mail.php
+public_html/wp-settings.php
+public_html/wp-signup.php
+public_html/wp-trackback.php
+public_html/wp-links-opml.php
+public_html/xmlrpc.php
+public_html/index.php
+public_html/.htaccess
+public_html/license.txt
+public_html/readme.html
+public_html/wp-config-docker.php
+readme.html
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Editor de código
+.vscode/
+.idea/
